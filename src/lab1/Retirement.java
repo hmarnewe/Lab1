@@ -1,6 +1,7 @@
 package lab1;
 import java.util.Scanner;
 
+//Lakshmi Palaparthi; Kim Wolff; Hava Marneweck;Ian Alejandro
 public class Retirement {
 	public static void main(String[] args) {
 		// A calculator for how much money you need to earn each month for retirement 
@@ -22,6 +23,7 @@ public class Retirement {
 		}
 		
 		System.out.println("Enter your annual return during retirement: ");
+
 		double retiredReturn = in.nextDouble();
 		while ((retiredReturn > 3) || (retiredReturn < 0)){	//Test that input is between 0-3
 			System.out.println("Your annual return during retirement must be in the range of 0 to 3 percent. Try another number:");
